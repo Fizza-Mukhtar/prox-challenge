@@ -1,0 +1,322 @@
+{
+  "duty_cycle": {
+    "pages": [
+      19,
+      29
+    ],
+    "source": "owner_manual",
+    "description": "Duty cycle tables for MIG, TIG, Stick on 120V and 240V",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_19",
+        "source": "owner_manual",
+        "page": 19,
+        "text": "Page 19\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSetting Up The Weld\nclamps\nworkpieces\nChamfer thick workpieces.\nClean surfaces \nto bare metal.\n1.\t Make practice welds on pieces of scrap the \nsame thickness as your intended workpiece \nto practice technique before welding anything \nof value.  Clean the weld surfaces thoroughly \nwith a wire brush or angle grinder; there \nmust be no rust, paint, oil, or other materials \non the weld surfaces, only bare metal.\n2.\t Use clamps (not included) to hold the workpieces \nin position so that you can concentrate on proper \nwelding technique.  The distance (if\u00a0any) between the \ntwo workpieces must be controlled properly to allow \nthe weld to hold both sides securely while allowing \nthe weld to penetrate fully into the joint.  The edges \nof thicker workpieces may need to be chamfered \n(or beveled) to allow proper weld penetration.\nNotice: When welding equipment on a vehicle, \ndisconnect the vehicle battery power from both the \npositive connection and the ground before welding.  \nThis prevents damage to some vehicle electrical \nsystems and electronics due to the high voltage \nand high frequency bursts common in welding.\n3.\t Clamp Ground Cable to bare metal on the \nworkpiece near the weld area, or to metal work \nbench where the workpiece is clamped.\n\u00ae\nGround connection depends \non desired welding polarity\nWorkpiece\nGround \nClamp\nClean \nsurface to \nbare metal.\nDuty Cycle (Duration of Use)\nAvoid damage to the Welder by not welding for more \nthan the prescribed duty cycle time.  The\u00a0Duty\u00a0Cycle \ndefines the number of minutes, within\u00a0a 10 minute \nperiod, during which a given welder can produce a \nparticular welding current without overheating. \nFor\u00a0example, a welder with a 40% duty cycle at \n100\u200aA\u00a0welding\u00a0current must be allowed to rest for at least \n6\u00a0minutes after every 4 minutes of continuous\u00a0welding.\nFailure\u00a0to\u00a0carefully observe duty cycle limitations \ncan easily over-stress a welder\u2019s power generation \nsystem contributing to premature welder failure.\nThis Welder has an internal thermal protection system \nto help prevent this sort of over-stress.  When the \nWelder overheats, it automatically shuts down and a \nwarning screen appears in the LCD Display window.  \nThe Welder automatically returns to service after \ncooling off.  Should this occur, rest the MIG Gun on an \nelectrically non-conductive, heat\u2011proof surface, such \nas a concrete slab, well clear of the ground clamp.\nAllow the Welder to cool with the Power Switch on, \nso that the internal Fan will help cool the Welder.\nWhen normal operation resumes, use shorter welding \nperiods and longer rest periods to prevent needless wear.\nRated Duty Cycle\n100% Continuous Use at 115\u200aA\n240\u200aVAC \n25% Use at 200\u200aA\nFor 10 Continuous Minutes\n2-1/2 \nMinutes \nWelding\n7-1/2\nMinutes \nResting\nRated Duty Cycle\n100% Continuous Use at 75\u200aA\n120\u200aVAC \n40% Use at 100\u200aA\nFor 10 Continuous Minutes\n4 \nMinutes \nWelding\n6\nMinutes \nResting",
+        "image_path": "knowledge\\images\\owner_manual_page_019.png"
+      },
+      {
+        "id": "owner_manual_page_29",
+        "source": "owner_manual",
+        "page": 29,
+        "text": "Page 29\nFor technical questions, please call 1-800-444-3353.\nItem 57812\n        \nSaFety\nWelding tipS\nMaintenance\ntig / Stick\ncOntROlS\nWiRe\n Duty Cycle (Duration of Use)\navoid damage to the Welder by not welding for more \nthan the prescribed duty cycle time.  The Duty Cycle \ndefines the number of minutes, within a 10 minute \nperiod, during which a given welder can produce a \nparticular welding current without overheating. \nFor example, a welder with a 40% duty \ncycle at 125\u200aA welding current must be \nallowed to rest for at least 6 minutes after \nevery 4 minutes of continuous welding.\nFailure to carefully observe duty cycle limitations \ncan easily over-stress a welder\u2019s power generation \nsystem contributing to premature welder failure.\nThis Welder has an internal thermal protection system to \nhelp prevent this sort of over-stress.  When the Welder \noverheats, it automatically shuts down and a warning \nscreen appears in the LCD Display window.  The Welder \nautomatically returns to service after cooling off.  Should \nthis occur, rest the Tig Torch or Electrode Holder on an \nelectrically non-conductive, heat-proof surface, such \nas a concrete slab, well clear of the ground clamp.\nallow the Welder to cool with the power Switch on, \nso that the internal Fan will help cool the Welder.\nWhen normal operation resumes, use \nshorter welding periods and longer rest \nperiods to prevent needless wear.\n240\u200aVAC\n25% Use at 175\u200aA\nFor 10 continuous Minutes\n100% Continuous Use at 100\u200aA\n2-1/2\n2-1/2\nMinutes \nMinutes \nWelding\nWelding\n7-1/2\n7-1/2\nMinutes \nMinutes \nResting\nResting\n120\u200aVAC\n40% Use at 80\u200aA\nFor 10 continuous Minutes\n100% Continuous Use at 60\u200aA\n4\nMinutes \nMinutes \nWelding\nWelding\n6\nMinutes \nMinutes \nResting\nResting\nStick Rated duty cycles\n240\u200aVAC\n30% Use at 175\u200aA\nFor 10 continuous Minutes\n100% Continuous Use at 105\u200aA\n3\nMinutes \nMinutes \nWelding\nWelding\n7\nMinutes \nMinutes \nResting\nResting\n120\u200aVAC\n40% Use at 125\u200aA\nFor 10 continuous Minutes\n100% Continuous Use at 90\u200aA\n4\nMinutes \nMinutes \nWelding\nWelding\n6\nMinutes \nMinutes \nResting\nResting\ntig Rated duty cycles\nSetting up the Weld\nclamps\nworkpieces\nchamfer thick workpieces.\nclean surfaces \nto bare metal.\n1. Make practice welds on pieces of scrap the \nsame thickness as your intended workpiece \nto practice technique before welding anything \nof value.  Clean the weld surfaces thoroughly \nwith a wire brush or angle grinder; there \nmust be no rust, paint, oil, or other materials \non the weld surfaces, only bare metal.\n2. Use clamps (not included) to hold the workpieces \nin position so that you can concentrate on \nproper welding technique.  The distance (if \nany) between the two workpieces must be \ncontrolled properly to allow the weld to hold \nboth sides securely while allowing the weld \nto penetrate fully into the joint.  The edges of \nthicker workpieces may need to be chamfered \n(or beveled) to allow proper weld penetration.\nnOtice: When welding equipment on a vehicle, \ndisconnect the vehicle battery power from both the \npositive connection and the ground before welding. \nThis prevents damage to some vehicle electrical \nsystems and electronics due to the high voltage \nand high frequency bursts common in welding.\n3. Clamp Ground Cable to bare metal on the \nworkpiece near the weld area, or to metal work \nbench where the workpiece is clamped.\n\u00ae\nground connection depends \non desired welding polarity\nWorkpiece\nground \nclamp\nclean \nsurface to \nbare metal.",
+        "image_path": "knowledge\\images\\owner_manual_page_029.png"
+      }
+    ]
+  },
+  "polarity_wiring": {
+    "pages": [
+      45
+    ],
+    "source": "owner_manual",
+    "description": "Wiring schematic showing polarity and cable connections",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_45",
+        "source": "owner_manual",
+        "page": 45,
+        "text": "Page 45\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nWiring Schematic\nAC1\nAC2\nG\n3\n4\n-T\n\uff5e\n1\n\uff5e\n3\n-\n4\n+\n2\n\uff5e\n1\n\uff5e\n3\n-\n4\n+\n2\n24V\nJ\n2\n1\nIGBT\nPFC\n5\n6\n4\n1\nOUT+\nOUT-\nK1 AC 120-240V/50/60HZ\nRECITIFIER\n1/4\n1/4\n1/4\n1/4\n4\n3\n2\n1\nT1\nT60*30*28\n1\n2\n3\n4\nCN1\nHall\nv\nOUT+\n1\n2\n1\n2\nFAN\nFAN2\n1\n2\n3\n4\n5\n6\n7\nCN8\n1\n2\n3\n4\n5\n6\n7\nCN1\n1\n2\n3\n4\n5\n6\nCN2\n1\n2\nCN3\nAVIATION\nPLUG\n1\n2\n3\nCN7\nWIRE FEEDER\nM\n1\n2\n3\n4\n5\nCN4\nSOLENOID \nVALVE\n1\n2\n3\n4\nCN3\n1\n2\nCN6\n3\n4\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n29\n30\n31\n32\n33\n34\n28\nCN5\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n29\n30\n31\n32\n33\n34\n28\nCN7\n3\n2\n1\n5\n4\n3\n2\n1\n5\n4\n3\n2\n1\n5\n4\n1\n2\n3\n4\nCN5\n1\n2\n3\n4\nMCU BOARD\nLCD SCREEN\nFAST WIRE FEED SWITCH\nREMOTE \nBOARD\nAVIATION\nPLUG\nSOLENOID \nVALVE",
+        "image_path": "knowledge\\images\\owner_manual_page_045.png"
+      }
+    ]
+  },
+  "polarity_per_process": {
+    "pages": [
+      7
+    ],
+    "source": "owner_manual",
+    "description": "DCEP/DCEN polarity settings per welding process MIG TIG Stick",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_7",
+        "source": "owner_manual",
+        "page": 7,
+        "text": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120\u200aVAC / 60\u200aHz\n240\u200aVAC / 60\u200aHz\nCurrent Input at Output\n20.8\u200aA at 100\u200aA\n25.5\u200aA at 200\u200aA\nWelding Current Range\n30\u200a\u2013140\u200aA\n30\u200a\u2013220\u200aA\nRated Duty Cycles\n40% @ 100\u200aA\n100% @ 75\u200aA\n25% @ 200\u200aA\n100% @ 115\u200aA\nMaximum OCV\n86\u200aVDC\nWeldable Materials\nMild Steel, Stainless Steel\nAluminum (with optional Spool Gun)\nWelding Wire Capacity\nSolid Core: 0.025\"\u2009/\u20090.030\"\u2009/\u20090.035\"\nFlux Cored: 0.030\"\u2009/\u20090.035\"\u2009/\u20090.045\"\nWire Speed\n50\u200a\u2013\u200a500 IPM\nWire Spool Capacity\nUp to 12 lb spool\nTIG\nPower Input\n120\u200aVAC / 60\u200aHz\n240\u200aVAC / 60\u200aHz \nCurrent Input at Output\n20.6\u200aA at 125\u200aA\n15.6\u200aA at 175\u200aA\nWelding Current Range\n10\u200aA\u200a\u2013125\u200aA\n10\u200aA\u200a\u2013175\u200aA\nRated Duty Cycles \n40% @ 125\u200aA\n100% @ 90\u200aA\n30% @ 175\u200aA\n100% @ 105\u200aA\nMaximum OCV\n86\u200aVDC\nWeldable Materials\nMild Steel, Stainless Steel, Chrome Moly\nStick\nPower Input\n120\u200aVAC / 60\u200aHz\n240\u200aVAC / 60\u200aHz\nCurrent Input at Output\n19.5\u200aA at 80\u200aA\n23.7\u200aA at 175\u200aA\nWelding Current Range\n10\u200aA\u200a\u2013\u200a80\u200aA \n10\u200aA\u200a\u2013175\u200aA\nRated Duty Cycles \n40% @ 80\u200aA\n100% @ 60\u200aA\n25% @ 175\u200aA\n100% @ 100\u200aA\nMaximum OCV\n86\u200aVDC\nWeldable Materials\nMild Steel, Stainless Steel",
+        "image_path": "knowledge\\images\\owner_manual_page_007.png"
+      }
+    ]
+  },
+  "specifications": {
+    "pages": [
+      7
+    ],
+    "source": "owner_manual",
+    "description": "Technical specifications, input voltage, output amps, weight",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_7",
+        "source": "owner_manual",
+        "page": 7,
+        "text": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120\u200aVAC / 60\u200aHz\n240\u200aVAC / 60\u200aHz\nCurrent Input at Output\n20.8\u200aA at 100\u200aA\n25.5\u200aA at 200\u200aA\nWelding Current Range\n30\u200a\u2013140\u200aA\n30\u200a\u2013220\u200aA\nRated Duty Cycles\n40% @ 100\u200aA\n100% @ 75\u200aA\n25% @ 200\u200aA\n100% @ 115\u200aA\nMaximum OCV\n86\u200aVDC\nWeldable Materials\nMild Steel, Stainless Steel\nAluminum (with optional Spool Gun)\nWelding Wire Capacity\nSolid Core: 0.025\"\u2009/\u20090.030\"\u2009/\u20090.035\"\nFlux Cored: 0.030\"\u2009/\u20090.035\"\u2009/\u20090.045\"\nWire Speed\n50\u200a\u2013\u200a500 IPM\nWire Spool Capacity\nUp to 12 lb spool\nTIG\nPower Input\n120\u200aVAC / 60\u200aHz\n240\u200aVAC / 60\u200aHz \nCurrent Input at Output\n20.6\u200aA at 125\u200aA\n15.6\u200aA at 175\u200aA\nWelding Current Range\n10\u200aA\u200a\u2013125\u200aA\n10\u200aA\u200a\u2013175\u200aA\nRated Duty Cycles \n40% @ 125\u200aA\n100% @ 90\u200aA\n30% @ 175\u200aA\n100% @ 105\u200aA\nMaximum OCV\n86\u200aVDC\nWeldable Materials\nMild Steel, Stainless Steel, Chrome Moly\nStick\nPower Input\n120\u200aVAC / 60\u200aHz\n240\u200aVAC / 60\u200aHz\nCurrent Input at Output\n19.5\u200aA at 80\u200aA\n23.7\u200aA at 175\u200aA\nWelding Current Range\n10\u200aA\u200a\u2013\u200a80\u200aA \n10\u200aA\u200a\u2013175\u200aA\nRated Duty Cycles \n40% @ 80\u200aA\n100% @ 60\u200aA\n25% @ 175\u200aA\n100% @ 100\u200aA\nMaximum OCV\n86\u200aVDC\nWeldable Materials\nMild Steel, Stainless Steel",
+        "image_path": "knowledge\\images\\owner_manual_page_007.png"
+      }
+    ]
+  },
+  "front_panel": {
+    "pages": [
+      8
+    ],
+    "source": "owner_manual",
+    "description": "Front panel controls diagram",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_8",
+        "source": "owner_manual",
+        "page": 8,
+        "text": "Page 8\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nControls\nFront Panel Controls\n\u00ae\nWire Feed \nPower Cable\nPower \nSwitch\nLCD \nDisplay\nRight \nKnob\nLeft \nKnob\nControl \nKnob\nHome \nButton\nBack \nButton\nSpool Gun \nGas Outlet\nMIG Gun\u200a/ \nSpool Gun \nCable Socket \nNegative \nSocket\nPositive \nSocket\nStorage \nCompartment\nNote: When using an optional Spool Gun (sold separately), connect the \nSpool Gun gas hose to the Spool Gun Gas Outlet.",
+        "image_path": "knowledge\\images\\owner_manual_page_008.png"
+      }
+    ]
+  },
+  "interior_controls": {
+    "pages": [
+      9
+    ],
+    "source": "owner_manual",
+    "description": "Interior controls diagram",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_9",
+        "source": "owner_manual",
+        "page": 9,
+        "text": "Page 9\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nInterior Controls\nCold Wire \nFeed Switch\nIdler \nArm\nWire Feed \nMechanism\nWire Spool\nSpool Knob\nFeed \nTensioner\nWire Inlet \nLiner\nFeed \nRoller \nKnob\nWire Feed \nControl Socket\nFoot Pedal \nSocket",
+        "image_path": "knowledge\\images\\owner_manual_page_009.png"
+      }
+    ]
+  },
+  "wire_feed_setup": {
+    "pages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "source": "owner_manual",
+    "description": "Wire spool installation and wire setup instructions",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_10",
+        "source": "owner_manual",
+        "page": 10,
+        "text": "Page 10\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\n1.\t Turn the Power Switch OFF and unplug \nthe Welder before proceeding.\n2.\t Pull up on the Door Latch, \nthen open the Door.\n3.\t 1-2 Pound Wire Spool Installation:\nRemove the Wingnut and Spacer.  If \nreplacing a Spool, remove the old Spool \nand all remaining wire from the liners.\n4.\t Place the new Wire Spool over the Spool Spindle \nand against the Spool Brake Pad as illustrated.   \nTo prevent wire feed problems, set the \nSpool so that it will unwind clockwise.\n5.\t Replace the Spacer over the \nSpool Spindle and secure Spool \nin place with the Wingnut.\nNotice: If Wire Spool can spin freely, Wingnut is too \nloose.  This will cause the welding wire to unravel and \nunspool which can cause tangling and feeding problems.\nPower \nSwitch\nDoor \nLatch\nDoor\nWelder \nWall\nWingnut\n1-2 lb \nWire Spool\nSpool \nBrake Pad\nSpacer\nSpool \nSpindle\n1-2 lb Spool Loading\nMIG\u200a/\u200aFlux-Cored Wire Welding\nRead the ENTIRE IMPORTANT SAFETY INFORMATION section at the beginning of this manual \nincluding all text under subheadings therein before set up or use of this product.\nTO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION:\nTurn the Power Switch off and unplug the Welder before setup.\nNote: Remove the protective foam and cardboard from the Welder before setup.\nWire Spool Installation\u200a/\u200aWire Setup",
+        "image_path": "knowledge\\images\\owner_manual_page_010.png"
+      },
+      {
+        "id": "owner_manual_page_11",
+        "source": "owner_manual",
+        "page": 11,
+        "text": "Page 11\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\n6.\t 10-12 Pound Wire Spool Installation:\nRemove the Wingnut and Spacer.  If \nreplacing a Spool, remove the old Spool \nand all remaining wire from the liners.\n7.\t Place the Spool Adapter over the Spool Spindle \nand against the Spool Brake Pad as illustrated.\n8.\t Place the new Wire Spool over the Adapter and \nline\u00a0up pin on Adapter with hole in Spool.\nTo prevent wire feed problems, set the \nSpool so that it will unwind clockwise.\n9.\t Replace the Spacer over the Spool Spindle \nand secure Spool in place with the Wingnut.\nNotice: If Wire Spool can spin freely, Wingnut \nis too loose.  This will cause the welding \nwire to unravel and unspool which can \ncause tangling and feeding problems.\n10.\tScrew the Spool Knob into the Spool Adapter.\n11.\t Turn the Feed Tensioner knob counterclockwise to \nloosen it enough to pull it down to remove tension.  \nThe spring-loaded Idler Arm will move up as shown.\nWelder \nWall\nSpool \nBrake Pad\n10-12 lb \nSpool \nAdapter\n10-12 lb Spool Loading\nWingnut\n10-12 lb \nWire Spool\nSpacer\nSpool Spindle\nSpool Knob\nWire \nmust \nunwind \nin this \ndirection\nIdler Arm\nFeed Tensioner",
+        "image_path": "knowledge\\images\\owner_manual_page_011.png"
+      },
+      {
+        "id": "owner_manual_page_12",
+        "source": "owner_manual",
+        "page": 12,
+        "text": "Page 12\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\n12.\tFeed Roller Instructions:\nCheck that the Feed Roller is correct for the \ntype of wire being used (solid core or flux-\ncored) and that it is turned to properly match \nthe wire size marked on the Wire Spool:\na.\t Unscrew the Feed Roller Knob \ncounterclockwise.\nb.\t Remove the Feed Roller Knob \nto expose the Feed Roller.\nc.\t Flip or replace the Feed Roller as needed \nand confirm that it is the correct Roller \nfor the type of wire being used and that \nthe number showing is the same as \nthe wire diameter on the Spool.\nd.\t Screw the Feed Roller Knob back into \nplace to secure the Feed Roller.\nFeed Roller \nKnob\nFeed \nRoller \nA\nB\nC\nD\n0.030\u2009/\u20090.035\ngroove\n0.025 \ngroove \nSolid Core \nV-Groove\n0.045\ngroove\n0.030\u2009/\u20090.035\ngroove\nFlux-Cored \nKnurled Groove",
+        "image_path": "knowledge\\images\\owner_manual_page_012.png"
+      },
+      {
+        "id": "owner_manual_page_13",
+        "source": "owner_manual",
+        "page": 13,
+        "text": "Page 13\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\n13.\tLoosen the Knob on the Wire Feed \nmechanism, then insert the Gun Cable \nConnector through the hole on the Welder \nfront and into the socket on the Wire Feed.\n14.\tEnsure that the Gun Cable Connector \nis fully inserted into the socket on \nthe Wire Feed mechanism as shown, \nthen tighten the Knob securely. \nIf Connector is not fully inserted, the gas \nconnection will leak, preventing shielding \ngas from reaching the welding arc.\nNOTICE: To prevent damage, do \nnot overtighten the Knob.\n15.\tInsert the Wire Feed Control Cable through \nthe hole on the Welder front and connect it \nto the Wire Feed Control Socket inside the \nmachine, then tighten the lock ring on the Cable \nplug.  Note that the plug on the Cable fits into \nthe Socket in one specific orientation only.\n16.\tDCEN Direct\u00a0Current\u00a0Electrode \nNegative Wire Setup for Flux-Cored \n(gasless) welding:\nPlug Ground Clamp Cable into Positive\u00a0(+) \nSocket.  Plug Wire Feed Power Cable \ninto Negative\u00a0(\u2013) Socket.  Twist cables \nclockwise all the way to lock in place.\nGun Cable \nConnector\nIncorrect\u200a\u2013\u200aConnector not fully inserted\nIncorrect\u200a\u2013\u200aConnector not fully inserted\nWire Feed \nMechanism\nKnob\nCorrect\u200a\u2013\u200aConnector fully inserted\nCorrect\u200a\u2013\u200aConnector fully inserted\nWire \nFeed \nControl \nCable\nGround Clamp Cable \nin Positive Socket\nWire Feed \nPower Cable in \nNegative Socket\nDCEN \nFlux-Cored (Gasless) \nPolarity Setup",
+        "image_path": "knowledge\\images\\owner_manual_page_013.png"
+      },
+      {
+        "id": "owner_manual_page_14",
+        "source": "owner_manual",
+        "page": 14,
+        "text": "Page 14\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\n17.\tDCEP Direct\u00a0Current\u00a0Electrode Positive Wire \nSetup for Solid Core (gas shielded) welding:\na.\t Plug Ground Clamp Cable into Negative\u00a0(\u2013) \nSocket.  Plug Wire Feed Power Cable \ninto Positive\u00a0(+) Socket.  Twist cables \nclockwise all the way to lock in place.\nb.\t Determine which type of shielding \ngas would be appropriate for \nthe welding you will do.  Refer \nto the Settings Chart on the \ninside of the Welder door.\nc.\t With assistance, set the cylinder (not included) \nonto a cabinet or cart near the Welder \nand secure the cylinder in place with two \nstraps (not included) to prevent tipping.\nd.\t Remove the cylinder\u2019s cap.  Stand to the \nside of the valve opening, then open the \nvalve briefly to blow dust and dirt from the \nvalve opening.  Close the cylinder valve.\ne.\t Locate the Regulator (included) and\u00a0close its \nvalve until it is loose, then thread Regulator \nonto cylinder and wrench-tighten connection.\nNote: When using C100 shielding gas, connect the \nenclosed CGA 580/320 adapter to the inlet connection \nof the Regulator and wrench-tighten.  Thread the \nadapter onto the gas cylinder and wrench-tighten.\nf.\t Attach the Gas Hose (included) \nto the Regulator\u2019s outlet and \nthe Welder\u2019s gas\u00a0inlet.  Wrench-\ntighten both connections.\nGround Clamp Cable \nin Negative Socket\nDCEP \nSolid Core (Gas Shielded) \nPolarity Setup\nWire Feed \nPower Cable in \nPositive Socket\nReset\nPower Input\nGas Inlet\nIP21S\nS\n1\nf1\nf2\nDate:\n57812    25d\nConforms to ANSI/IEC Std. 60974-1\n264149\nVulcan OMNIPRO 220\n30A/15.5V to 220A/25V\nX\n25%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n200A\n130A\n115A\nU2\n24V\n20.5V\n19.75V\n1~50/60Hz\nU1 = 240V\nI1max = 25.5A\n            23.7A\n            15.6A\nI1eff = 12.8A\n          11.9A\n            8.5A\n10A/20.4V to 175A/27V\nX\n25%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n175A\n115A\n100A\nU2\n27V\n24.6V\n24V\n10A/10.4V to 175A/17V\nX\n30%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n175A\n125A\n105A\nU2\n17V\n15V\n14.2V\n30A/15.5V to 140A/21V\nX\n40%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n100A\n85A\n75A\nU2\n19V\n18.25V\n17.75V\n1~50/60Hz\nU1 = 120V\nI1max = 20.8A\n            19.5A\n            20.6A\nI1eff = 13.1A\n          12.3A\n       13A\n10A/20.4V to 80A/23.2V\nX\n40%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n80A\n70A\n60A\nU2\n23.2V\n22.8V\n22.4V\n10A/10.4V to 125A/15V\nX\n40%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n125A\n105A\n90A\nU2\n15V\n14.2V\n13.6V\nUPC 193175422590\nf\ne\nc\nBriefly open valve \nto clean, \nthen close \nvalve.\nd",
+        "image_path": "knowledge\\images\\owner_manual_page_014.png"
+      },
+      {
+        "id": "owner_manual_page_15",
+        "source": "owner_manual",
+        "page": 15,
+        "text": "Page 15\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nIMPORTANT\nSecurely hold onto the end of the welding wire and keep \ntension on it during the following steps.\nIf this is not done, the welding wire will unravel and unspool \nwhich can cause tangling and feeding problems.\n18.\tCut off all bent and crimped wire.  \nThe\u00a0cut\u00a0end must\u00a0have no burrs or \nsharp edges; cut again if needed.\n19.\tKeep tension on the wire and guide at \nleast 12\u00a0inches of wire into the Wire \nInlet Liner and Feed Guide.\n20.\tMake sure the welding wire is resting in the groove \nof the Feed Roller, then push the wire Idler\u00a0Arm \ndown, and swing the Feed Tensioner up\u00a0to latch it \nacross the tip of the\u00a0arm.   \nAfter the wire is held by the\u00a0Tensioner, \nyou may release it.\nNote: The tension should be 3\u200a\u2013\u200a5 for solid wire and \n2\u200a\u2013\u200a3 for flux-cored wire.  Too much force on flux-cored \nwire will crush it and may cause feeding issues.\n21.\tPull the Nozzle to remove it.\n22.\tUnscrew the Contact Tip \ncounterclockwise and remove.\n23.\tLay the MIG Gun Cable out in a straight line \nso that the welding wire moves through it \neasily.  Leave the cover open, so that the \nfeed mechanism can be observed.\nIMPORTANT\nStainless steel wire is less flexible than \nother welding wire.  Therefore, it is more \ndifficult to feed through the liner and gun.  \nIt\u00a0is\u00a0especially important to keep the gun cable \nstraight while feeding stainless steel wire.\nWire \nWire \nSpool\nSpool\nWelding \nWire\nHOLD WIRE \nSECURELY\nFeed \nGuide\nWire Inlet \nLiner\nIdler Arm\nFeed Tensioner\nNozzle\nContact\nTip\nMIG Gun",
+        "image_path": "knowledge\\images\\owner_manual_page_015.png"
+      },
+      {
+        "id": "owner_manual_page_16",
+        "source": "owner_manual",
+        "page": 16,
+        "text": "Page 16\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nDANGER\nPARTS MAY BE AT WELDING VOLTAGE\nTO PREVENT ELECTRIC SHOCK AND DEATH:\n1.\t Keep hands away from Wire Feed mechanism.\n2.\t Close door before plugging in, unless using Cold \nWire Feed to feed wire through to gun.\n3.\t Do not touch Trigger while feeding wire through to gun.\n24.\tPlug either 120\u200aVAC or 240\u200aVAC Power \nCord into Power Input Socket.\nNote: Plug will only fit one way.\n25.\tDo not touch the Gun\u2019s Trigger.  Plug the Power \nCord into a properly grounded, GFCI protected \n120\u200aVAC (20 amp rated) or 240\u200aVAC receptacle that \nmatches the plug and turn the Power Switch ON.  \nThe circuit must be equipped with delayed \naction-type circuit breaker or fuses.\n26.\tPoint the Gun away from \nall objects.  Press and \nhold the Cold Wire Feed \nSwitch until the wire feeds \nthrough two inches.\nThe wire liner may come \nout with the welding \nwire.  This is normal, \njust push the\u00a0wire liner \nback into the Gun.\nIf the wire does not feed \nproperly and the Spool \nis stationary, turn OFF \nand unplug the Welder \nand slightly tighten the \nFeed Tensioner clockwise \nbefore retrying.\nReset\nPower Input\nGas Inlet\nIP21S\nS\n1\nf1\nf2\nDate:\n57812    25d\nConforms to ANSI/IEC Std. 60974-1\n264149\nVulcan OMNIPRO 220\n30A/15.5V to 220A/25V\nX\n25%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n200A\n130A\n115A\nU2\n24V\n20.5V\n19.75V\n1~50/60Hz\nU1 = 240V\nI1max = 25.5A\n            23.7A\n            15.6A\nI1eff = 12.8A\n          11.9A\n            8.5A\n10A/20.4V to 175A/27V\nX\n25%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n175A\n115A\n100A\nU2\n27V\n24.6V\n24V\n10A/10.4V to 175A/17V\nX\n30%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n175A\n125A\n105A\nU2\n17V\n15V\n14.2V\n30A/15.5V to 140A/21V\nX\n40%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n100A\n85A\n75A\nU2\n19V\n18.25V\n17.75V\n1~50/60Hz\nU1 = 120V\nI1max = 20.8A\n            19.5A\n            20.6A\nI1eff = 13.1A\n          12.3A\n       13A\n10A/20.4V to 80A/23.2V\nX\n40%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n80A\n70A\n60A\nU2\n23.2V\n22.8V\n22.4V\n10A/10.4V to 125A/15V\nX\n40%\n60%\n100%\nU0\u200a=\u200a86V\nI2\n125A\n105A\n90A\nU2\n15V\n14.2V\n13.6V\nUPC 193175422590\nPower \nInput\nPower \nSwitch\nMIG Gun\nWelding \nWire\n2\"\nCold Wire \nFeed Switch",
+        "image_path": "knowledge\\images\\owner_manual_page_016.png"
+      },
+      {
+        "id": "owner_manual_page_17",
+        "source": "owner_manual",
+        "page": 17,
+        "text": "Page 17\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\n27.\tTo check the wire\u2019s drive tension, press and hold \nTrigger to feed the wire against a piece of wood \nfrom\u00a02\u00a0to 3 inches\u00a0away.\n \nNote:  After pressing Trigger, wire will stop \nfeeding after 3 seconds if there is no arc.  \nCheck tension for less than 3 seconds. \n\nIf\u00a0the wire stops instead of bending, unplug \nthe Welder, slightly tighten the Feed\u00a0Tensioner \nclockwise, and try again.  If the wire bends \nfrom the feed pressure, then the tension \nis set properly.  Before proceeding, turn \nOFF the Power Switch and unplug the \nPower Cord from its electrical outlet.\n28.\tTurn OFF the Power Switch and unplug the \nPower Cord from its electrical outlet.\n29.\tClose the Door.  Make sure \nDoor is securely latched.\n30.\tSelect a Contact Tip that is compatible with \nthe welding wire used.  Slide the Contact \nTip over the wire and thread it clockwise into \nthe MIG\u00a0Gun.  Tighten\u00a0the\u00a0Contact\u00a0Tip.\n31.\tReplace the Nozzle and cut the wire \noff at 1/2\" from tip (1/2\" stickout).\nIncrementally \nincrease tension \nuntil \nwire bends.\n2\u20133\"\nNozzle\nContact\nTip\nMIG Gun\nOptional Spool Gun Setup\n1.\t To set up optional Spool Gun (sold separately), plug Ground Clamp Cable into Negative\u00a0(\u2013) Socket.  Plug \nWire Feed Power Cable into Positive\u00a0(+) Socket.  Twist cables clockwise all the way to lock in place.\n2.\t Loosen the Knob on the Wire Feed \nmechanism, then insert the Spool \nGun Cable Connector through the \nhole on the Welder front and into \nthe socket on the Wire Feed.\n3.\t Ensure Cable Connector is fully \ninserted and tighten the Knob \nsecurely.  If Connector is not fully \ninserted, the gas connection will \nleak, preventing shielding gas \nfrom reaching the welding arc.\nNOTICE: To prevent damage, do \nnot overtighten the Knob.\n4.\t Insert the Wire Feed Control Cable \nthrough hole on Welder front and \nconnect to the Wire Feed Control Socket \ninside the machine, then tighten lock \nring on the Cable plug.  Note that the \nplug on the Cable fits into the Socket \nin one specific orientation only.\n5.\t Connect Gas Hose on Spool Gun Cable \nConnector to Spool Gun Gas Outlet on front \nof\u00a0Welder.  Refer to paragraph 17 on page 14 \nfor further shielding gas setup information.\n6.\t Refer to Spool Gun manual for \noperational information.\nSpool Gun\nSpool Gun \nSpool Gun \nGas Outlet\nGas Outlet\nSpool Gun \nCable Connector\nGas Hose\nWire Feed \nWire Feed \nControl \nControl \nCable\nCable\nGround \nClamp Cable \nin Negative \nSocket\nWire Feed \nPower Cable in \nPositive Socket",
+        "image_path": "knowledge\\images\\owner_manual_page_017.png"
+      }
+    ]
+  },
+  "weld_diagnosis": {
+    "pages": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "source": "owner_manual",
+    "description": "Weld diagnosis photos showing porosity, spatter, penetration, heat control",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_35",
+        "source": "owner_manual",
+        "page": 35,
+        "text": "Page 35\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nWire Weld Diagnosis\u200a\u2013\u200aWorkpiece Heat Control / Weld Penetration\nEXCESS PENETRATION OR \nBURN-THROUGH\nPROPER PENETRATION\nINADEQUATE PENETRATION\nNot hot enough\nToo hot\nIdeal heat\nHow to increase workpiece heat \nand increase penetration: \n(to weld THICKER workpieces properly)\nHow to reduce workpiece heat \nand limit penetration: \n(to weld THINNER workpieces properly)\na.\tIncrease weld current\nb.\tDecrease travel speed\nc.\tUse faster wire feed\nd.\tUse shorter CTWD\ne.\tDecrease weld current\nf.\tIncrease travel speed\ng.\tUse slower wire feed\nh.\tUse longer CTWD\nExample Wire Weld Diagrams\nGood \nWeld\nVoltage \nToo Low or \nWire Feed \nToo Slow\nVoltage \nToo High or \nWire Feed \nToo Fast\nTravel Speed \nToo Fast\nTravel Speed \nToo Slow\nCTWD \nToo\u00a0Long \nor \nWrong\u00a0Polarity\nTO CORRECT:\ntravel \nslower\nTO CORRECT:\ntravel \nfaster\nTO CORRECT:\nCheck Polarity \nand\nmaintain \nless \nless \nthan 1/2\" \nthan 1/2\" \nCTWD\nCTWD\nTO CORRECT:\nTO CORRECT:\nor\nIncrease \nOutput Voltage\nIncrease Wire \nFeed Speed\nor\nDecrease \nOutput Voltage\nDecrease Wire \nFeed Speed",
+        "image_path": "knowledge\\images\\owner_manual_page_035.png"
+      },
+      {
+        "id": "owner_manual_page_36",
+        "source": "owner_manual",
+        "page": 36,
+        "text": "Page 36\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nWire Weld Penetration (Workpiece Heat Control)\nEXCESS PENETRATION OR \nBURN-THROUGH\nWeld droops on top and \nunderneath, or falls through \nentirely, making a hole.\nPROPER PENETRATION\nWeld is visible underneath and \nbulges slightly on top.\nINADEQUATE PENETRATION\nWeld does not penetrate the \njoint fully, just on the surface.\nPOSSIBLE CAUSES AND SOLUTIONS\n1.\t Workpiece overheating:\nReduce wire feed speed.\nDecrease weld current.\n2.\t Travel speed too slow:\nIncrease travel speed and ensure \nthat travel speed is kept steady.\n3.\t Excessive material at weld:\nReduce wire feed speed.\nPOSSIBLE CAUSES AND SOLUTIONS\n4.\t Incorrect welding technique:\nMaintain 1/2\" or less CTWD.\nKeep arc on leading edge of weld puddle.\nHold MIG Gun at proper angles.\n5.\t Insufficient weld heat:\nReduce travel speed.\nIncrease weld current.\n6.\t Workpieces too thick/close:\nBevel thick workpieces, allow slight \ngap, and weld in several passes.\n7.\t Insufficient weld material:\nIncrease wire feed speed.\nPROFILE VIEWS\nWeld Not Adhering Properly\nGaps present between weld and previous bead or \nbetween weld and workpiece.  See areas below.\nPOSSIBLE CAUSES AND SOLUTIONS\n1.\t Incorrect welding technique:\nPlace stringer bead at correct place in joint.\nAdjust workpiece position or weld angle to permit \nproper welding to bottom of piece.\nPause briefly at sides during weave bead.\nKeep arc on leading edge of weld puddle.\nHold MIG Gun at proper angles.\n2.\t Insufficient weld heat:\nIncrease current.\nIncrease wire feed speed.\n3.\t Dirty workpiece:\nClean workpiece down to bare metal.\n4.\t Insufficient weld material:\nIncrease wire feed speed.\n5.\t Workpiece gap too narrow:\nWiden groove or increase bevel.\nPROFILE \nVIEW\nBend at Joint\nPOSSIBLE CAUSES AND SOLUTIONS\n1.\t Improper clamping:\nClamp workpieces securely.\nMake tack welds to hold workpieces.\n2.\t Excessive heat:\nWeld a small portion and allow to cool before \nproceeding.\nIncrease travel speed.\nReduce wire feed speed.\nPROFILE \nVIEW\nCoat of Slag Over Weld\nSlag is a necessary part of a flux-cored wire \nweld.  It shields the weld from\u00a0impurities.  \nClean off the slag with a Chipping Hammer \nand Wire Brush after welding.\nGas-shielded MIG welds are protected by the \nshielding gas and do not need slag to protect them.\nTOP \nVIEW\nPARTIALLY CHIPPED AWAY TO SHOW WELD",
+        "image_path": "knowledge\\images\\owner_manual_page_036.png"
+      },
+      {
+        "id": "owner_manual_page_37",
+        "source": "owner_manual",
+        "page": 37,
+        "text": "Page 37\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nWire Weld\u200a\u2013\u200aBurn-Through\nBase material melts away, \nleaving a hole in the weld.\nPOSSIBLE CAUSES AND SOLUTIONS\n1.\t Workpiece overheating:\nReduce current and/or wire feed speed.\n2.\t Travel speed too slow:\nIncrease travel speed and ensure \nthat travel speed is kept steady.\n3.\t Excessive material at weld:\nReduce wire feed speed.\nTOP \nVIEW\nWire Weld\u200a\u2013\u200aCrooked/Wavy Bead\nPOSSIBLE CAUSES AND SOLUTIONS\n1.\t Inaccurate welding:\nUse two hands or rest hand on steady surface.\n2.\t Inconsistent travel speed:\nMaintain steady travel speed.\n3.\t CTWD too long:\nReduce CTWD.\nTOP \nVIEW\nWire Weld\u200a\u2013\u200aPorosity\nSmall cavities or holes in the bead.\nPOSSIBLE CAUSES AND SOLUTIONS\n1.\t Incorrect polarity:\nCheck that polarity is set correctly \nfor type of welding.\n2.\t Insufficient shielding gas (MIG only):\nIncrease flow of gas.\nClean nozzle.\nMaintain proper CTWD.\n3.\t Incorrect shielding gas (MIG only):\nUse shielding gas recommended by wire supplier.\n4.\t Dirty workpiece or welding wire:\nClean workpiece down to bare metal. \nMake certain that wire is clean and free \nfrom oil, coatings, and other residues.\n5.\t Inconsistent travel speed:\nMaintain steady travel speed.\n6.\t CTWD too long:\nReduce CTWD.\nTOP \nVIEW\nWire Weld\u200a\u2013\u200aExcessive Spatter\nFine spatter is normal.\nSpatter that is grainy and large is a problem.\nPOSSIBLE CAUSES AND SOLUTIONS\n1.\t Dirty workpiece or welding wire:\nClean workpiece down to bare metal. \nMake certain that wire is clean and free \nfrom oil, coatings, and other residues.\n2.\t Incorrect polarity:\nCheck that polarity is set correctly \nfor type of welding.\n3.\t Insufficient shielding gas (MIG only):\nIncrease flow of gas.\nClean nozzle.\nMaintain proper CTWD.\n4.\t Wire feeding too fast:\nReduce wire feed speed.\n5.\t CTWD too long:\nReduce CTWD.\nTOP \nVIEW",
+        "image_path": "knowledge\\images\\owner_manual_page_037.png"
+      },
+      {
+        "id": "owner_manual_page_38",
+        "source": "owner_manual",
+        "page": 38,
+        "text": "Page 38\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nStick Weld Diagnosis\u200a\u2013\u200aWorkpiece Heat Control / Weld Penetration\nEXCESS PENETRATION OR \nBURN-THROUGH\nPROPER PENETRATION\nINADEQUATE PENETRATION\nNot hot enough\nToo hot\nIdeal heat\nHow to increase workpiece heat \nand increase penetration: \n(to weld THICKER workpieces properly)\na.\tIncrease current.\nb.\tWeld more slowly.\nHow to reduce workpiece heat \nand limit penetration: \n(to weld THINNER workpieces properly)\nc.\tDecrease current.\nd.\tWeld more quickly.\nExample Stick Weld Diagrams\nCLEAN WELDS FIRST!\nStick welds will have a coat of slag over them until cleaned.\nGood \nWeld\nCurrent \nToo Low\nTO CORRECT:\nIncrease the \ncurrent\nTO CORRECT:\nDecrease \nthe current\nCurrent \nToo High\nTO CORRECT:\nWeld slower\nWeld Speed \nToo Fast\nTO CORRECT:\nWeld faster\nWeld Speed \nToo Slow\nArc Length \nToo Short\nTO CORRECT:\nIncrease \ndistance\nArc Length \nToo Long\nTO CORRECT:\nDecrease \ndistance",
+        "image_path": "knowledge\\images\\owner_manual_page_038.png"
+      },
+      {
+        "id": "owner_manual_page_39",
+        "source": "owner_manual",
+        "page": 39,
+        "text": "Page 39\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nStick Weld Penetration (Workpiece Heat Control)\nEXCESS PENETRATION OR \nBURN-THROUGH\nWeld droops on top and \nunderneath or falls through \nentirely, making a hole.\nPROPER PENETRATION\nWeld is visible underneath and \nbulges slightly on top.\nINADEQUATE PENETRATION\nWeld does not contact the joint \nfully, just on the surface.\nPROFILE VIEWS\nPOSSIBLE CAUSES AND SOLUTIONS FOR \nEXCESS PENETRATION OR BURN-THROUGH\n1.\t Workpiece overheating:\nReduce current.\n2.\t Welding speed too slow:\nIncrease welding speed and ensure \nthat welding speed is kept steady.\nPOSSIBLE CAUSES AND SOLUTIONS FOR\nINADEQUATE PENETRATION\n1.\t Incorrect welding technique:\nKeep arc on leading edge of weld puddle.\nHold torch at proper angles.\n2.\t Insufficient weld heat:\nSlow down so fill material has time to melt \ninto the weld location. Increase current.\n3.\t Workpieces too thick/close:\nBevel thick workpieces, allow slight \ngap, and weld in several passes.\n4.\t Insufficient weld material:\nIncrease amount of fill material.\nStick Weld\u200a\u2013\u200aWeld Not Adhering Properly \nGaps present between weld and previous bead or between weld and workpiece.  See areas below.\nPOSSIBLE CAUSES AND SOLUTIONS\nPROFILE \nVIEW\n1.\t Incorrect welding technique:\nPlace stringer bead at correct place in joint.\nAdjust workpiece position or weld angle to permit \nproper welding to bottom of piece.\nKeep arc on leading edge of weld puddle.\nHold Electrode and fill material at proper angles.\n2.\t Insufficient weld heat:\nIncrease current.\n3.\t Dirty workpiece:\nClean workpiece down to bare metal.\n4.\t Insufficient weld material:\nIncrease amount of fill material.\n5.\t Distance between workpieces to large:\nDecrease distance and increase bevel.\nStick Weld\u200a\u2013\u200aBend at Joint \nPOSSIBLE CAUSES AND SOLUTIONS\nPROFILE \nVIEW\n1.\t Improper clamping:\nClamp workpieces securely.\nMake tack welds to hold workpieces.\n2.\t Excessive heat:\nWeld a small portion and allow to cool before \nproceeding.\nIncrease weld speed.",
+        "image_path": "knowledge\\images\\owner_manual_page_039.png"
+      },
+      {
+        "id": "owner_manual_page_40",
+        "source": "owner_manual",
+        "page": 40,
+        "text": "Page 40\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nStick Weld\u200a\u2013\u200aCoat of Slag Over Weld\nTOP \nVIEW\nPARTIALLY CHIPPED AWAY TO SHOW WELD\nSlag is a necessary part of a stick weld.  It shields \nthe weld from impurities.  Clean off the slag with the \nChipping Hammer and Wire Brush after welding.\nStick Weld\u200a\u2013\u200aPorosity \u2014 Small cavities or holes in the bead.\nPOSSIBLE CAUSES AND SOLUTIONS\nTOP \nVIEW\n1.\t Dirty workpiece or fill material:\nClean workpiece down to bare metal. \nMake certain that fill material and Electrode are \nclean and free from oil, coatings, and other residues.\n2.\t Inconsistent welding speed:\nMaintain steady weld speed.\nStick Weld\u200a\u2013\u200aCrooked/Wavy Bead \nPOSSIBLE CAUSES AND SOLUTIONS\nTOP \nVIEW\n1.\t Inaccurate welding:\nUse two hands or rest hand on steady surface.\n2.\t Inconsistent welding speed:\nMaintain steady weld speed.\nStick Weld\u200a\u2013\u200aExcessive Spatter \nPOSSIBLE CAUSES AND SOLUTIONS\nTOP \nVIEW\nFine spatter is normal. Spatter that is \ngrainy and large is a problem. \nDirty workpiece or fill material:\nClean workpiece down to bare metal. \nMake certain that fill material and Electrode are \nclean and free from oil, coatings, and other residues.\nStick Weld\u200a\u2013\u200aBurn-Through \u2014 Base material melts away, leaving a hole in the weld.\nPOSSIBLE CAUSES AND SOLUTIONS\nTOP \nVIEW\n1.\t Workpiece overheating:\nReduce current. \n2.\t Welding speed too slow:\nIncrease welding speed and ensure \nthat welding speed is kept steady.\n3.\t Excessive material at weld:\nReduce amount of fill material.",
+        "image_path": "knowledge\\images\\owner_manual_page_040.png"
+      }
+    ]
+  },
+  "assembly_diagram": {
+    "pages": [
+      47
+    ],
+    "source": "owner_manual",
+    "description": "Full assembly diagram of the welder",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_47",
+        "source": "owner_manual",
+        "page": 47,
+        "text": "Page 47\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nAssembly Diagram\n1\n2\n4\n5\n6\n7\n10\n9\n12\n11\n8\n15\n14\n16\n17\n18\n20\n21\n22\n25\n23\n24\n26\n27\n28\n29\n33\n34\n35\n41\n42\n43\n44\n45\n40\n37\n38\n39\n46\n47\n50\n49\n52\n60\n59\n58\n54\n53\n57\n56\n55\n48\n51\n13\n61\n32\n36\n19\n30\n31\n3",
+        "image_path": "knowledge\\images\\owner_manual_page_047.png"
+      }
+    ]
+  },
+  "troubleshooting": {
+    "pages": [
+      42,
+      43,
+      44
+    ],
+    "source": "owner_manual",
+    "description": "Troubleshooting matrix, common problems and fixes",
+    "pages_data": [
+      {
+        "id": "owner_manual_page_42",
+        "source": "owner_manual",
+        "page": 42,
+        "text": "Page 42\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nTroubleshooting\u200a\u2013\u200aMIG\u200a/\u200aFlux-Cored Welding\nIMPORTANT!\nBe CERTAIN to shut off the Welder, disconnect it from power, and discharge the MIG Gun to \nground before adjusting, cleaning, or repairing the unit.\nProblem\nPossible Causes\nLikely Solutions\nWire Feed Motor \nRuns but Wire Does \nNot Feed Properly\n1.\t Insufficient wire feed pressure.\n2.\t Incorrect wire feed roller size.\n3.\t Damaged MIG Gun, cable, or liner assembly.\n4.\t Feed Tensioner is too tight.\n1.\t Increase wire feed pressure properly.  \nFollow step 27 on page 17.\n2.\t Flip roll to correct size.  Follow the Feed \nRoller instructions on page 12.\n3.\t Have a qualified technician inspect these \nparts and replace as necessary.\n4.\t Loosen Feed Tensioner so it applies only \nenough pressure to prevent continued \nspinning after the Gun Trigger is released.\nWire Creates a \nBird\u2019s Nest During \nOperation\n1.\t Excess wire feed pressure.\n2.\t Incorrect Contact Tip size.\n3.\t MIG Gun Cable Connector not fully \ninserted into Wire Feed mechanism.\n4.\t Damaged liner.\n1.\t Adjust wire feed pressure properly.  \nFollow step 27 on page 17.\n2.\t Replace with the proper tip for wire used.\n3.\t Insert Gun Cable Connector properly.  \nFollow steps 13 and 14 on page 13.\n4.\t Have a qualified technician inspect \nand repair/replace as necessary.\nWire Stops \nDuring Welding\n1.\t Gun cable is severely bent and Wire \nFeed mechanism cannot feed wire.\n2.\t Gun liner is clogged or worn.\n3.\t Gun liner is too small for \nwelding wire being used.\n4.\t Wire is tangled on the spool.\n5.\t Wire is not making contact with Feed Rollers.\n6.\t Feed Roller is not making enough contact \nwith wire or is crushing flux-cored wire.\n1.\t Straighten Gun cable.\n2.\t Check gun liner for obstruction.  \nReplace if necessary.\n3.\t Check that gun liner is correct size for wire.\n4.\t Check wire for cross winding or tangled spool.\n5.\t Check Feed Rollers and ensure correct \ngroove for wire diameter is being used.\n6.\t Check Feed Tensioner and ensure it is set properly.\nWelding Arc \nNot Stable\n1.\t Wire not feeding properly.\n2.\t Incorrect Contact Tip or liner \nsize or excessive wear.\n3.\t Incorrect wire feed speed.\n4.\t Loose MIG Gun cable or ground cable.\n5.\t Damaged MIG Gun or loose \nconnection within Gun.\n6.\t Incorrect polarity for process being run.\n\n7.\t Gas coverage may be insufficient or too high.\n\n\n8.\t Poor connection with workpiece.\n1.\t See first Troubleshooting section above.\n2.\t Replace with the proper tip or \nliner size for wire used.\n3.\t Adjust wire feed speed to achieve \na more stable arc.\n4.\t Check to ensure that all connections are tight.\n5.\t Have a qualified technician inspect \nand repair/replace as necessary.\n6.\t Ensure polarity is correct for operation: \nDCEP for MIG welding and DCEN for \nFlux-Cored self-shielded welding.\n7.\t Ensure gas flow rate is set according to \nSettings Chart.  Make sure MIG Gun Cable \nConnector is fully inserted into Wire Feed \nmechanism with no O-Rings exposed. \n8.\t Check the ground clamp connection to \nthe workpiece and machine.  Ensure \nthe MIG Gun is properly secured.\nWeak Arc Strength\n1.\t Incorrect line voltage.\n2.\t Improper gauge or length of cord.\n\n3.\t Not enough current.\n1.\t Check the line voltage and, if insufficient, have \na licensed electrician remedy the situation.\n2.\t Do not use an extension cord on this Welder.  \nUse only one of the supplied power cords for \nthis Welder or an identical replacement cord.\n3.\t Switch current to proper setting for metal thickness.\nFollow all safety precautions whenever diagnosing or servicing the equipment.",
+        "image_path": "knowledge\\images\\owner_manual_page_042.png"
+      },
+      {
+        "id": "owner_manual_page_43",
+        "source": "owner_manual",
+        "page": 43,
+        "text": "Page 43\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nProblem\nPossible Causes\nLikely Solutions\nWelder Does Not \nFunction When \nSwitched On\n1.\t Tripped thermal protection device.\n\n\n\n\n\n\n2.\t Circuit supplies insufficient input voltage or \namperage.\n\n\n3.\t Faulty or improperly connected Trigger.\n\n4.\t Machine is in low- or \nover-voltage protection.\n5.\t Machine is in the incorrect mode.\n1.\t If a warning screen appears in the LCD Display \nwindow, Welder may have overheated and shut \ndown.  Stop and wait with the Power Switch ON \nfor the Welder to cool.  The Welder automatically \nreturns to service after cooling off.  Reduce \nduration or frequency of welding periods to \nhelp reduce wear on the Welder.  Refer to \nDuty Cycle (Duration of Use) on page\u00a019.\n2.\t Verify that the circuit is designed to supply the \nrequired input voltage and amperage as detailed \non the Specifications table.  If a warning screen \nappears in the LCD Display window, check the \ninput voltage to ensure it is within specified range.\n3.\t Ensure the gun connection is properly \nseated on machine.  Qualified technician \nmust check and secure/replace Trigger.\n4.\t Check input voltage and ensure it falls within \nthe specified range.  If input voltage is correct, \npress Reset Button on back of machine.\n5.\t Ensure the correct process has been selected.\nLCD Display \nDoes Not Light \nWhen Welder is \nSwitched On\n1.\t Unit is not connected to outlet properly. \n2.\t Outlet is unpowered.\n\n3.\t Plug does not have correct rating.\n4.\t Circuit breaker has tripped due \nto high input amperage.\n5.\t Input Power Cord is not seated properly.\n1.\t Verify the voltage at the outlet and \nthe connection to the outlet.\n2.\t Check circuit breaker/GFCI devices; \nif any are tripped, determine and \nremedy cause before resetting.\n3.\t Make sure installed plug is correct rating.  \nSee Specifications on page 7.\n4.\t Press Reset Button on back of \nmachine to reset circuit breaker.\n5.\t Ensure the twist lock input Power \nCord is fully secured.\nWire Feeds, but Arc \nDoes Not Ignite\n1.\t Improper ground connection.\n\n\n2.\t Improperly sized Contact Tip. \n\n3.\t Excessively worn Contact Tip.\n\n4.\t Dirty Contact Tip.\n1.\t Make certain that the workpiece is contacted \nproperly by the Ground Clamp and that \nthe workpiece is properly cleaned near the \nground clamp and the welding location.\n2.\t Verify that Contact Tip is the proper size \nfor welding wire.  If needed, replace \nContact Tip with proper size and type.  \n3.\t Check that the hole in the tip is not \ndeformed or enlarged.  If needed, replace \nContact Tip with proper size and type. \n4.\t Properly clean Contact Tip.\nPorosity in the \nWeld Metal\n1.\t Shielding gas bottle is empty.\n2.\t Not enough or too much shielding gas.\n3.\t Dirty workpiece.\n4.\t Gun is being used too far \naway from workpiece.\n5.\t Polarity is incorrect for the application.\n6.\t Dirty welding wire is introducing \ncontamination into the weld.\n1.\t Check gas bottle and replenish as necessary.\n2.\t Check gas regulator to ensure proper flow.\n3.\t Clean workpiece down to bare metal.\n4.\t Check CTWD (contact tip to work \ndistance) for the proper procedure.\n5.\t Check the polarity and ensure it is DCEP \nfor MIG and DCEN for Flux-Cored.\n6.\t Make certain that welding wire is clean \nand free of rust and residues.\nFollow all safety precautions whenever diagnosing or servicing the equipment.",
+        "image_path": "knowledge\\images\\owner_manual_page_043.png"
+      },
+      {
+        "id": "owner_manual_page_44",
+        "source": "owner_manual",
+        "page": 44,
+        "text": "Page 44\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nTroubleshooting\u200a\u2013\u200aTIG\u200a/\u200aStick Welding\nIMPORTANT!\nBe CERTAIN to shut off the Welder, disconnect it from power, and discharge the \nelectrode to ground before adjusting, cleaning, or repairing the unit.\nProblem\nPossible Causes\nLikely Solutions\nWelder Does Not \nFunction When \nSwitched On\n1.\t Tripped thermal protection device.\n\n2.\t Faulty or improperly \nconnected Trigger.\n3.\t Ground Clamp not attached \nto workpiece.\n4.\t Shielding Gas not connected.\n1.\t Reduce duration or frequency of welding periods \nto help reduce wear on the welder.  Refer to \nDuty\u00a0Cycle (Duration\u00a0of\u00a0Use) on page\u00a029.\n2.\t Qualified technician must check and \nsecure/replace Trigger.\n3.\t Attach Ground Clamp to workpiece.\n4.\t Connect shielding gas to Welder.\nLCD Display Does Not \nLight When Welder \nis Switched On\n1.\t Unit is not connected \nto outlet properly.\n2.\t Outlet is unpowered.\n1.\t Verify the voltage at the outlet and \nthe connection to the outlet.\n2.\t Check circuit breaker/GFCI devices; if any are tripped, \ndetermine and remedy cause before resetting.  Verify \nthat the circuit is designed to supply the required input \namperage as detailed in Specifications on page\u00a07.\nWeak Arc Strength\n1.\t Incorrect line voltage.\n2.\t Improper gauge or length of cord.\n1.\t Check the line voltage and, if insufficient, have \na licensed electrician remedy the situation.\n2.\t Do not use an extension cord on this Welder.  Use \nonly one of the supplied power cords for this \nWelder or an identical replacement cord.\nWelding Arc \nNot Stable.\n1.\t Loose electrode cable \nor ground cable.\n2.\t Damaged electrode holder or loose \nconnection within electrode holder.\n3.\t Adjust current setting.\n4.\t Shielding gas getting low.\n1.\t Check to ensure that all connections are tight.\n2.\t Have a qualified technician inspect and \nrepair/replace as necessary.\n3.\t Make sure setting matches \nrecommended setting on chart.\n4.\t Replace shielding gas cylinder.\nFollow all safety precautions whenever diagnosing or servicing the equipment.",
+        "image_path": "knowledge\\images\\owner_manual_page_044.png"
+      }
+    ]
+  },
+  "process_selection": {
+    "pages": [
+      1
+    ],
+    "source": "selection_chart",
+    "description": "How to choose welding process - visual decision chart",
+    "pages_data": [
+      {
+        "id": "selection_chart_page_1",
+        "source": "selection_chart",
+        "page": 1,
+        "text": "",
+        "image_path": "knowledge\\images\\selection_chart_page_001.png"
+      }
+    ]
+  },
+  "quick_start": {
+    "pages": [
+      1,
+      2
+    ],
+    "source": "quick_start",
+    "description": "Quick setup guide for first time use",
+    "pages_data": [
+      {
+        "id": "quick_start_page_1",
+        "source": "quick_start",
+        "page": 1,
+        "text": "BASIC WELDING INSTRUCTIONS AND WELDING TIPS ARE IN MANUAL.\n2\u2033\nContact\nTip\nNozzle\nHOLD \nGUN \nCLEAR\nWARNING\nTo prevent serious \ninjury, read \nmanual warnings \nand instructions \nbefore use.\nWARNING\nTo prevent fire \nand serious \ninjury, keep torch \nand wire clear of \ngrounded objects \nwhile welder \nplugged in.\nWelder\nWingnut\n2 lb \nWire \nSpool\nBrake \nPad\nSpacer\nSpindle\n2 lb Spool Loading\nAdapter and knob required for 10-12 lb spool\n2\u2033-3\u2033\nwood \nblock\nclockwise\nwelding \nwire\nfeed \nguides\nWire Spool\nFeed \nMechanism\n\u00ae",
+        "image_path": "knowledge\\images\\quick_start_page_001.png"
+      },
+      {
+        "id": "quick_start_page_2",
+        "source": "quick_start",
+        "page": 2,
+        "text": "BASIC WELDING INSTRUCTIONS AND WELDING TIPS ARE IN MANUAL.\n\u00ae",
+        "image_path": "knowledge\\images\\quick_start_page_002.png"
+      }
+    ]
+  }
+}

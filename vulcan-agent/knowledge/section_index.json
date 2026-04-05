@@ -1,0 +1,62 @@
+{
+  "duty_cycle": {
+    "pages": [19, 29],
+    "source": "owner_manual",
+    "description": "Duty cycle tables for MIG, TIG, Stick on 120V and 240V"
+  },
+  "polarity_wiring": {
+    "pages": [45],
+    "source": "owner_manual",
+    "description": "Wiring schematic showing polarity and cable connections"
+  },
+  "polarity_per_process": {
+    "pages": [7],
+    "source": "owner_manual",
+    "description": "DCEP/DCEN polarity settings per welding process MIG TIG Stick"
+  },
+  "specifications": {
+    "pages": [7],
+    "source": "owner_manual",
+    "description": "Technical specifications, input voltage, output amps, weight"
+  },
+  "front_panel": {
+    "pages": [8],
+    "source": "owner_manual",
+    "description": "Front panel controls diagram"
+  },
+  "interior_controls": {
+    "pages": [9],
+    "source": "owner_manual",
+    "description": "Interior controls diagram"
+  },
+  "wire_feed_setup": {
+    "pages": [10, 11, 12, 13, 14, 15, 16, 17],
+    "source": "owner_manual",
+    "description": "Wire spool installation and wire setup instructions"
+  },
+  "weld_diagnosis": {
+    "pages": [35, 36, 37, 38, 39, 40],
+    "source": "owner_manual",
+    "description": "Weld diagnosis photos showing porosity, spatter, penetration, heat control"
+  },
+  "assembly_diagram": {
+    "pages": [47],
+    "source": "owner_manual",
+    "description": "Full assembly diagram of the welder"
+  },
+  "troubleshooting": {
+    "pages": [42, 43, 44],
+    "source": "owner_manual",
+    "description": "Troubleshooting matrix, common problems and fixes"
+  },
+  "process_selection": {
+    "pages": [1],
+    "source": "selection_chart",
+    "description": "How to choose welding process - visual decision chart"
+  },
+  "quick_start": {
+    "pages": [1, 2],
+    "source": "quick_start",
+    "description": "Quick setup guide for first time use"
+  }
+}
