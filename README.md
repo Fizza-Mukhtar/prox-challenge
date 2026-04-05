@@ -2,7 +2,7 @@
 
 > A multimodal reasoning agent that answers hard technical questions about the Vulcan OmniPro 220 welder — with interactive calculators, live schematics, and visual troubleshooting tools generated on the fly.
 
-![Agent Demo](demo.png)
+<img width="1901" height="852" alt="image" src="https://github.com/user-attachments/assets/b502d4e7-fd7f-4b4b-bd05-ead8333108e6" />
 
 ---
 
