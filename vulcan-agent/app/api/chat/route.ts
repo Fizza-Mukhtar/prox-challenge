@@ -147,13 +147,51 @@ async function generateArtifactHTML(
 ): Promise<{ html: string; artifactType: string }> {
   const baseRequirements = `
 REQUIREMENTS:
-- Single self-contained HTML file
-- All CSS and JS inline, no external dependencies
-- Every button/tab/slider must have working JavaScript event listeners
-- All values must update instantly on interaction
-- Dark theme: background #111827, cards #1f2937, accent #f59e0b, white text
-- Mobile responsive
-- Return ONLY the HTML starting with <!DOCTYPE html>`;
+- Single self-contained HTML file, all CSS and JS inline
+- NO external dependencies, NO frameworks, vanilla JavaScript only
+- CRITICAL: Use inline onclick attributes on ALL buttons — NOT addEventListener
+- Example: <button onclick="selectVoltage('240V')">240V</button>
+- NEVER use addEventListener anywhere in the code
+- Define ALL functions in a <script> tag in the <head>
+- Call update() at the very end of the script to set initial state
+- Every interactive element must have onclick="functionName()" directly on the HTML tag
+
+CORRECT PATTERN:
+<head>
+<script>
+  let voltage = '240V';
+  let process = 'MIG';
+  
+  function selectVoltage(v) {
+    voltage = v;
+    update();
+  }
+  
+  function selectProcess(p) {
+    process = p;
+    update();
+  }
+  
+  function update() {
+    document.getElementById('output').textContent = voltage + ' ' + process;
+    document.getElementById('v240').style.background = voltage === '240V' ? '#f59e0b' : '#374151';
+    document.getElementById('v120').style.background = voltage === '120V' ? '#f59e0b' : '#374151';
+  }
+  
+  window.onload = function() { update(); };
+</script>
+</head>
+<body>
+  <button id="v240" onclick="selectVoltage('240V')">240V</button>
+  <button id="v120" onclick="selectVoltage('120V')">120V</button>
+  <div id="output"></div>
+</body>
+
+WRONG PATTERN (never do this):
+  document.getElementById('v240').addEventListener('click', ...)
+  
+Dark theme: background #111827, cards #1f2937, accent #f59e0b, white text
+Return ONLY the HTML starting with <!DOCTYPE html>`;
 
   const prompts: Record<string, string> = {
     duty_cycle_calculator: `Create a fully interactive duty cycle calculator for the Vulcan OmniPro 220.
@@ -161,18 +199,58 @@ REQUIREMENTS:
 REAL DATA FROM THE MANUAL — use these exact numbers:
 ${context}
 
-Extract every duty cycle percentage, amperage, and voltage value from the data above.
+EXACT HTML STRUCTURE TO USE — do not change any id attributes:
 
-Build:
-1. Voltage toggle buttons: 120V / 240V
-2. Process tabs: MIG | Flux-Cored | TIG | Stick  
-3. Amperage slider that updates based on selected process/voltage
-4. Large circular SVG gauge showing duty cycle % — updates on every interaction
-5. "Weld X.X min → Rest X.X min per 10 min cycle" text — updates live
-6. Color coding: green >60%, yellow 30-60%, red <30%
-7. Red warning box when duty cycle is under 30%
+<body>
+  <div id="voltage-section">
+    <button id="voltage-240" onclick="setVoltage('240V')">240V</button>
+    <button id="voltage-120" onclick="setVoltage('120V')">120V</button>
+  </div>
+  <div id="process-section">
+    <button id="tab-mig" onclick="setProcess('MIG')">MIG</button>
+    <button id="tab-flux" onclick="setProcess('Flux-Cored')">Flux-Cored</button>
+    <button id="tab-tig" onclick="setProcess('TIG')">TIG</button>
+    <button id="tab-stick" onclick="setProcess('Stick')">Stick</button>
+  </div>
+  <div id="amperage-section">
+    <input type="range" id="amperage-slider" oninput="setAmperage(this.value)">
+    <span id="amperage-display">115A</span>
+  </div>
+  <svg viewBox="0 0 200 200">
+    <circle id="gauge-bg" cx="100" cy="100" r="80" fill="none" stroke="#374151" stroke-width="12"/>
+    <circle id="gauge-fill" cx="100" cy="100" r="80" fill="none" stroke="#f59e0b" stroke-width="12"
+      stroke-dasharray="502.65" stroke-dashoffset="502.65" 
+      stroke-linecap="round" transform="rotate(-90 100 100)"/>
+    <text id="gauge-percent" x="100" y="95" text-anchor="middle" fill="white" font-size="32">100%</text>
+    <text id="gauge-label" x="100" y="125" text-anchor="middle" fill="#9ca3af" font-size="12">DUTY CYCLE</text>
+  </svg>
+  <div id="cycle-text">Continuous use</div>
+  <div id="warning-box" style="display:none">⚠️ High stress on welder. Rest frequently.</div>
+</body>
 
-CRITICAL: Use ONLY numbers found in the manual data above. If a combination has no data, show "See manual for this setting".
+USE THIS EXACT DATA for the duty cycles:
+240V: MIG/Flux-Cored → 25% at 200A, 100% at 115A | TIG → 20% at 200A, 100% at 115A | Stick → 30% at 175A, 100% at 105A
+120V: MIG/Flux-Cored → 20% at 140A, 100% at 90A | TIG → 20% at 140A, 100% at 90A | Stick → 40% at 125A, 100% at 90A
+
+ALSO USE any additional data found here:
+${context}
+
+JAVASCRIPT FUNCTIONS REQUIRED — use these exact function names:
+- setVoltage(v) — sets selectedVoltage, calls update()
+- setProcess(p) — sets selectedProcess, calls update()  
+- setAmperage(a) — sets selectedAmperage, calls update()
+- update() — reads state, updates ALL elements by ID
+
+In update():
+- gauge-fill strokeDashoffset = 502.65 * (1 - dutyCycle/100)
+- gauge-percent text = dutyCycle + '%'
+- Color gauge-fill: green (#22c55e) if >60%, yellow (#eab308) if 30-60%, red (#ef4444) if <30%
+- cycle-text = 'Weld Xmin → Rest Xmin per 10min' or 'Continuous use'
+- warning-box display = block if duty < 30%, else none
+- Active button highlighted with background #f59e0b, color #111827
+
+window.onload = function() { update(); }
+
 ${baseRequirements}`,
 
     troubleshooting_flowchart: `Create an interactive troubleshooting decision tree for the Vulcan OmniPro 220.
@@ -180,17 +258,148 @@ ${baseRequirements}`,
 REAL DATA FROM THE MANUAL:
 ${context}
 
-Extract every problem, cause, and fix mentioned in the data above.
+EXACT HTML STRUCTURE TO USE — do not change any id attributes:
 
-Build:
-1. Symptom selection screen — buttons for each problem found in the data (porosity, spatter, no arc, burn through, wire feed issues, machine won't start, etc.)
-2. Clicking a symptom starts a Yes/No decision tree based on manual causes
-3. Each final node shows the exact fix from the manual
-4. "Start Over" button always visible
-5. Progress indicator showing current step
-6. Smooth transitions between steps
+<body>
+  <div id="screen-symptoms" class="screen">
+    <h2>What problem are you experiencing?</h2>
+    <div id="symptom-buttons"></div>
+  </div>
+  <div id="screen-question" class="screen" style="display:none">
+    <div id="progress-text"></div>
+    <h2 id="question-text"></h2>
+    <button onclick="answerYes()">✓ Yes</button>
+    <button onclick="answerNo()">✗ No</button>
+    <button onclick="restart()">↩ Start Over</button>
+  </div>
+  <div id="screen-result" class="screen" style="display:none">
+    <h2>Here's what to check:</h2>
+    <div id="result-text"></div>
+    <button onclick="restart()">↩ Start Over</button>
+  </div>
+</body>
 
-CRITICAL: Use ONLY problems and fixes found in the manual data above.
+JAVASCRIPT REQUIRED — use these exact function names:
+
+const symptoms = [
+  { name: "Porosity in welds", questions: [
+    { q: "Are you using Flux-Cored wire?", yes: 1, no: 2 },
+    { q: "Is polarity set to DCEN (electrode negative)?", yes: 2, no: "fix_polarity" },
+    { q: "Is the base metal clean and free of rust/paint/oil?", yes: "fix_wire", no: "fix_metal" }
+  ], fixes: {
+    fix_polarity: "Change polarity to DCEN. On this welder, move the work clamp to (+) and gun to (-). Wrong polarity is the #1 cause of porosity in flux-cored welding.",
+    fix_wire: "Check your wire: ensure it is dry, rust-free, and stored properly. Replace contaminated wire.",
+    fix_metal: "Clean the base metal thoroughly. Grind or wire-brush to bare metal. Remove all rust, paint, mill scale, and oil within 1 inch of the weld area."
+  }},
+  { name: "Excessive spatter", questions: [
+    { q: "Is voltage set too high?", yes: "fix_voltage", no: 1 },
+    { q: "Is wire speed too fast?", yes: "fix_wirespeed", no: "fix_gas" }
+  ], fixes: {
+    fix_voltage: "Reduce voltage by 1-2 settings. High voltage causes erratic arc and spatter.",
+    fix_wirespeed: "Reduce wire feed speed. Too fast causes stubbing and spatter.",
+    fix_gas: "Check gas flow rate (15-25 CFH) and ensure no drafts are affecting the shield."
+  }},
+  { name: "No arc / won't start", questions: [
+    { q: "Is the power switch ON and display showing?", yes: 1, no: "fix_power" },
+    { q: "Is the work clamp connected to bare metal?", yes: "fix_settings", no: "fix_clamp" }
+  ], fixes: {
+    fix_power: "Check power switch, circuit breaker, and input voltage. Machine needs 120V or 240V supply.",
+    fix_clamp: "Connect work clamp directly to bare metal workpiece. Remove paint or rust at clamp point.",
+    fix_settings: "Check process selection and polarity settings match your wire type."
+  }},
+  { name: "Burn through", questions: [
+    { q: "Are you welding thin material under 1/8 inch?", yes: "fix_thin", no: 1 },
+    { q: "Is voltage too high for material thickness?", yes: "fix_voltage2", no: "fix_speed" }
+  ], fixes: {
+    fix_thin: "Use lower voltage setting and faster travel speed. Consider using 120V input for thin material.",
+    fix_voltage2: "Reduce voltage 1-2 steps. For thin material use minimum settings.",
+    fix_speed: "Increase travel speed and use weave pattern to distribute heat."
+  }},
+  { name: "Wire feed problems", questions: [
+    { q: "Is wire feeding erratically or stopping?", yes: 1, no: "fix_tension" },
+    { q: "Is drive roll tension set correctly?", yes: "fix_liner", no: "fix_tension" }
+  ], fixes: {
+    fix_tension: "Adjust drive roll tension — tighten if wire slips, loosen if wire crushes. Test by pressing wire against your finger.",
+    fix_liner: "Check gun liner for kinks or blockage. Ensure correct wire size drive roll is installed.",
+  }}
+];
+
+let currentSymptom = null;
+let currentStep = 0;
+let history = [];
+
+function showSymptoms() {
+  document.getElementById('screen-symptoms').style.display = 'block';
+  document.getElementById('screen-question').style.display = 'none';
+  document.getElementById('screen-result').style.display = 'none';
+  const container = document.getElementById('symptom-buttons');
+  container.innerHTML = '';
+  symptoms.forEach((s, i) => {
+    const btn = document.createElement('button');
+    btn.textContent = s.name;
+    btn.onclick = function() { selectSymptom(i); };
+    container.appendChild(btn);
+  });
+}
+
+function selectSymptom(index) {
+  currentSymptom = index;
+  currentStep = 0;
+  history = [];
+  showQuestion();
+}
+
+function showQuestion() {
+  const symptom = symptoms[currentSymptom];
+  const question = symptom.questions[currentStep];
+  document.getElementById('screen-symptoms').style.display = 'none';
+  document.getElementById('screen-question').style.display = 'block';
+  document.getElementById('screen-result').style.display = 'none';
+  document.getElementById('question-text').textContent = question.q;
+  document.getElementById('progress-text').textContent = 'Step ' + (currentStep + 1) + ' of ' + symptom.questions.length;
+}
+
+function answerYes() {
+  const question = symptoms[currentSymptom].questions[currentStep];
+  history.push(currentStep);
+  if (typeof question.yes === 'string') {
+    showResult(question.yes);
+  } else {
+    currentStep = question.yes;
+    showQuestion();
+  }
+}
+
+function answerNo() {
+  const question = symptoms[currentSymptom].questions[currentStep];
+  history.push(currentStep);
+  if (typeof question.no === 'string') {
+    showResult(question.no);
+  } else {
+    currentStep = question.no;
+    showQuestion();
+  }
+}
+
+function showResult(fixKey) {
+  const fix = symptoms[currentSymptom].fixes[fixKey];
+  document.getElementById('screen-symptoms').style.display = 'none';
+  document.getElementById('screen-question').style.display = 'none';
+  document.getElementById('screen-result').style.display = 'block';
+  document.getElementById('result-text').textContent = fix;
+}
+
+function restart() {
+  currentSymptom = null;
+  currentStep = 0;
+  history = [];
+  showSymptoms();
+}
+
+window.onload = function() { showSymptoms(); };
+
+Style with dark theme: background #111827, cards #1f2937, accent #f59e0b.
+Make buttons large and clickable. Smooth transitions between screens.
 ${baseRequirements}`,
 
     settings_configurator: `Create a welding settings configurator for the Vulcan OmniPro 220.
